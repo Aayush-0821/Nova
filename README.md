@@ -1,12 +1,45 @@
-# React + Vite
+# Nova
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nova** is an AI-powered chat interface built using **React** and integrated with the **OpenAI API**. It provides an intuitive and responsive user experience for interacting with generative AI, enabling users to ask questions, get help, or explore ideas in real-time.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💬 Real-time AI-powered chat
+- 🌐 Built with React and modern UI components
+- 🎨 Clean and responsive user interface
+- ⚙️ Easily customizable prompt handling
+- 🔒 Safe and secure input handling
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, HTML, CSS, JavaScript
+- **AI Integration:** OpenAI GPT API
+- **Styling:** Tailwind CSS
+
+## 📦 Installation
+
+   ```bash
+  1.  git clone https://github.com/yourusername/nova.git
+  2.  cd nova
+  3. npm install
+  4. VITE_OPENAI_API_KEY=your_openai_api_key
+  5. npm run dev
+```
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/f2a791a7-43ec-4a9e-b48f-ff91994b32af)
+
+## 🧠 How It Works
+
+User inputs a message<br>
+
+The message is sent to the OpenAI API<br>
+
+The response is displayed in the chat interface
+
+## 🙋‍♀️ Contributing
+Contributions are welcome! If you’d like to add features, improve UI, or fix bugs, feel free to open an issue or submit a pull request.
+
+## 📄 Author
+Aayush-0821
